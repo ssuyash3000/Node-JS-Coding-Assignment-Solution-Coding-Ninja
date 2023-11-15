@@ -1,0 +1,6 @@
+// app.js - our main application file
+import * as maths from "./math.js";
+const nums = [1, 2, 3, 4, 5];
+// console.log(maths);
+console.log(`The sum is ${maths.sum(nums)}`);
+console.log(`The mean is ${maths.mean(nums)}`);
